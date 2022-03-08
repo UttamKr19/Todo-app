@@ -48,7 +48,6 @@ function App() {
           <Route exact path="/" render={() => {
             return (
               <>
-
                 <div className="row">
                   <div className="col-sm-6">
                     <div className="">
@@ -65,8 +64,6 @@ function App() {
                     </div>
                   </div>
                 </div>
-                
-               
               </>
             )
           }}>

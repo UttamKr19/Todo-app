@@ -12,7 +12,7 @@ export const TodoItem=({todo,onDelete})=>{
             <p>{todo.desc}</p>
             <p>{date.toLocaleString()} {date.getDay()}</p>
             <button className="btn btn-sm btn-outline-danger" onClick={()=>{onDelete(todo)}} > Delete </button>
-            <hr className="my-4"/>
+            
         </div>
     )
 }
