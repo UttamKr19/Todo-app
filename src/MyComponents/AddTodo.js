@@ -32,7 +32,7 @@ export const AddTodo = (props) => {
 
                 <br/>
                 <div className="d-grid gap-2">
-                    <button type="submit" className="btn btn-lg btn-block btn-success mx-auto" type="button">Add task</button>
+                    <button type="submit" className="btn btn-lg btn-block btn-success mx-auto">Add task</button>
                 </div>
             </form>
         </div>
